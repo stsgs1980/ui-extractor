@@ -1,0 +1,21 @@
+{
+  "name": "@ui-extractor/core",
+  "version": "0.1.0",
+  "description": "Core library for UI extraction",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./extract": "./src/extract.js",
+    "./analyze": "./src/analyze.js"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "dependencies": {
+    "playwright": "^1.62.0"
+  },
+  "devDependencies": {
+    "vitest": "^2.0.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "ui-extractor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Extract UI components, design tokens, and patterns from any website. Generate production-ready React/Vue/HTML components. CLI + MCP server for AI agents.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stsgs1980/ui-extractor.git"
+  },
+  "keywords": [
+    "ui-extraction",
+    "design-tokens",
+    "component-generation",
+    "playwright",
+    "mcp-server",
+    "react",
+    "vue",
+    "design-system",
+    "reverse-engineering",
+    "ai-agents"
+  ],
+  "author": "stsgs1980",
+  "license": "MIT",
+  "scripts": {
+    "dev": "pnpm --filter @ui-extractor/cli dev",
+    "build": "pnpm -r build",
+    "test": "vitest",
+    "mcp": "pnpm --filter @ui-extractor/mcp start",
+    "cli": "pnpm --filter @ui-extractor/cli start"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "eslint-plugin-markdown": "^5.1.0",
+    "playwright": "^1.62.0",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}
