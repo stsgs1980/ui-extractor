@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Run linting with zero warnings tolerance
+pnpm eslint . --max-warnings=0

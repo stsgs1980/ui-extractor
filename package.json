@@ -27,12 +27,16 @@
     "build": "pnpm -r build",
     "test": "vitest",
     "mcp": "pnpm --filter @ui-extractor/mcp start",
-    "cli": "pnpm --filter @ui-extractor/cli start"
+    "cli": "pnpm --filter @ui-extractor/cli start",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@typescript-eslint/parser": "^8.66.0",
     "eslint": "^10.8.0",
     "eslint-plugin-markdown": "^5.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.3.0",
     "playwright": "^1.62.0",
     "typescript": "^5.5.0",
     "vitest": "^2.0.0"
